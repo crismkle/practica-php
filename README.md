@@ -58,3 +58,58 @@ electrónico válida.
 ### Ejercicio 10
 Crea una función llamada calcularPromedio que tome un array de números
 como argumento y devuelva el promedio de esos números.
+
+## :clipboard: TP Final Módulo 1
+
+### Mod 1 Ejercicio 1
+Desarrollar una función en PHP que reciba un valor numérico, verifique que
+el número es entero, mayor que 1 y retorne dos variables.
+La primera variable debe indicar si el número recibido es primo y la segunda
+variable debe informar si el número recibido es par o impar.
+Instrucciones:
+1. Nombre de la Función: La función debe llamarse verificarNumero.
+2. Parámetros de Entrada:
+o La función debe recibir un único parámetro: un número
+cualquiera.
+3. Validación:
+o La función debe verificar que el número recibido es entero
+mayor que 1. Si el número no cumple esta condición, la función
+debe retornar false para ambas variables.
+4. Salida:
+o La función debe retornar dos variables:
+▪ La primera variable debe ser un booleano que indique si
+el número es primo (true si es primo, false si no lo es).
+▪ La segunda variable debe ser un string que indique si el
+número es “par” o “impar”.
+5. Definiciones:
+o Un número es primo si solo es divisible por 1 y por sí mismo.
+o Un número es par si es divisible por 2, de lo contrario,
+es impar.
+
+### Mod 1 Ejercicio 2
+Desarrollar una solución en PHP que haga uso de la
+función verificarNumero del ejercicio anterior para encontrar los números
+primos que existen entre dos valores dados, incluyendo los propios valores
+inicio/fin.
+El código deberá generar tres arreglos: uno con todos los números primos,
+otro con los números primos pares y otro con los números primos impares.
+Finalmente, se deberá mostrar por pantalla la cantidad de números primos
+encontrados, la cantidad de números primos pares y la cantidad de números
+primos impares.
+Instrucciones:
+1. Función: utilizar la función del ejercicio 1.
+2. Parámetros de Entrada:
+o La solución debe recibir dos valores enteros, mayores que 1,
+que representen el rango de búsqueda (por
+ejemplo, inicio y fin).
+3. Generación de Arreglos:
+o Crea tres arreglos:
+▪ Un arreglo con todos los números primos encontrados en
+el rango.
+▪ Un arreglo con los números primos pares.
+▪ Un arreglo con los números primos impares.
+4. Salida:
+o Muestra por pantalla:
+▪ La cantidad total de números primos encontrados.
+▪ La cantidad de números primos pares.
+▪ La cantidad de números primos impares.
